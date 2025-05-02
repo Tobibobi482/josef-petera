@@ -1,16 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Josef Petera</title>
+    <title>Ptáci na českém území</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2e8b57;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1, h2 {
+            margin: 0;
+        }
+        section {
+            margin: 20px;
+        }
+        .bird-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .bird-list li {
+            background-color: #e0ffe0;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .bird-list img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        .bird-info {
+            display: flex;
+            align-items: center;
+        }
+        .bird-info div {
+            margin-left: 15px;
+        }
+        footer {
+            background-color: #2e8b57;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    
-ahoj tohle je stranka o kralovi Josifku Peterovi
-pokud me chces
-vjhgjjhgzjjgjh
 
+<header>
+    <h1>Ptáci na českém území</h1>
+    <p>Seznam některých ptáků, které můžeme potkat v Česku.</p>
+</header>
+
+<section>
+    <h2>Nejčastější ptáci v České republice</h2>
+    <ul class="bird-list">
+        <li>
+            <div class="bird-info">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Great_tit_parus_major_8.jpg/800px-Great_tit_parus_major_8.jpg" alt="Sýkora veliká">
+                <div>
+                    <h3>Sýkora veliká</h3>
+                    <p>Velikost: 12–13 cm, hmotnost: 15–21 g</p>
+                    <p>Sýkora veliká je velmi běžným ptákem v českých lesích a zahradách.</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="bird-info">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/European_Robin_in_Riga.jpg" alt="Robin">
+                <div>
+                    <h3>Robin (Červenočelka)</h3>
+                    <p>Velikost: 12–14 cm, hmotnost: 16–22 g</p>
+                    <p>Robini jsou známí svým charakteristickým červeným hrudníkem. Často je vídáme v zahradách.</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="bird-info">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Corvus_corone_2.jpg" alt="Havran">
+                <div>
+                    <h3>Havran</h3>
+                    <p>Velikost: 50–67 cm, hmotnost: 450–700 g</p>
+                    <p>Havran je inteligentní pták, který je v Česku běžný v lesích a městských oblastech.</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+</section>
+
+<section>
+    <h2>Další zajímaví ptáci</h2>
+    <p>V České republice můžete také potkat mnoho dalších druhů ptáků, včetně kachen, sokolů, čápů a orlů.</p>
+</section>
+
+<footer>
+    <p>Stránka vytvořena pro vzdělávací účely.</p>
+</footer>
 
 </body>
 </html>
